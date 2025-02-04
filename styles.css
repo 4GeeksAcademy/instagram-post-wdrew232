@@ -1,47 +1,25 @@
-body{
-    background: black;
+.container {
+  width: 80%; 
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
 }
-.container{
-    margin: 450px;
-    height: 600px;
-    width: 600px;
-    background-color: white;
+
+#words{
+  background-color: red;
 }
-.footer{
-    background-color: white;
-   
+.btn2{
+  background-color: blue;
 }
-.icon-right{
-    float: right;
-    margin-right: 10px;
-    margin-top: -75px;
+#btn{
+  display: flex;
+  justify-content: end;
+  background-color: grey;
 }
-.icon-left{
-    margin-left: 10px;
+.form{
+  margin-top: -8px;
 }
-.likes{
-    margin-left: 10px;
+#header{
+  background-color: grey;
 }
-   .header-left, .header-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .names{
-    display: flex;
-    flex-direction: column;
-  }
-  p{
-    margin-left: 10px;
-  }
-  span1{
-    margin-left: 10px;
-  }
-  .header-right{
-    margin-right: 10px;
-  }
